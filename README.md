@@ -28,39 +28,44 @@ The contents of the repository is broken down as follows:
 root 
 |__ <week_num>-<topic_title>
     |__ <lesson_num>
-        |__ <activities>
+        |__ Activities
             |__<slide.pdf>
             |__<activity_num>-<activity_type>_<activity_title>
-                |__ instruction/README.md
+                |__ README.md
                 |__ solved/*
                 |__ unsolved/*
 ```
 
 - `week_num`: refers to the week number e.g. 01, 02, 03. 
 - `topic_title`: refers to the week's topic e.g. Excel, VBA-Scripting, Python, etc...
-- `lesson_num`: refers to the lesson number i.e. 1 or 2 or 3. 
-- `activity_num` : refers to the activity number e.g. 01, 02, 03. 
-- `activity_type`: refers to the activity type i.e. [`ins`] instructor, [`stu`] student, [`evr`] everyone. 
+- `lesson_num`: refers to the lesson number i.e. 1 or 2 or 3. This also corresponds to the day of the week i.e. 1 = Monday, 2 = Tuesday, 3 = Thursday
+- `activity_num` : refers to the activity number e.g. 01, 02, 03 and so on.
+- `activity_type`: refers to the activity type i.e. [`ins`] instructor, [`stu`] student, [`evr`] everyone, [`par`] partner
 - `activity_title`: refers to the activity title e.g. ExcelPlayground, PivotTables, etc...
-
+- `*`: denotes all files in the folder
 
 Example: 
 ```
 root 
 |__ 01-Excel
-    |__ 2
-        |__ 03-ins-extracting-data
-            |__ instruction/README.md
-            |__ solved/*
-            |__ unsolved/*
-        |__ 04-stu-extracting-data
-            |__ instruction/README.md
-            |__ solved/*
-            |__ unsolved/*
-```
-
+    |__ 3
+        |__ aus_1.3 Excel Plotting.pdf
+        |__ Activities
+            |__ 02-Ins_BasicCharting
+                |__ README.md
+                |__ solved/*
+                |__ unsolved/*
+            |__ 03-Stu_LineAndBar
+                |__ README.md
+                |__ solved/*
+                |__ unsolved/*
+            |__ 04-Ins_ScatterPlot
+                |__ solved
+    ```
 
 Each activity contains the following folders: 
-- `instruction`: contains a `README.md` file along with other files related to the instruction for the activity. 
+- `README.md`: contains instruction or 
 - `solved`: contains the solved solutions for the activity. [`stu`] solved solutions will be uploaded at the end of each class. 
 - `unsolved`: contains the unsolved starting code for the activity. This folder may be empty at times if the code is to be created from scratch. 
+
+**Please Note:** Some activity might not have unsolved or solved folder depending on what we will be doing. Some acivity might have additional folder such as `Resources` or `Images`. 
