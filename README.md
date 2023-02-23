@@ -28,8 +28,8 @@ The contents of the repository is broken down as follows:
 root 
 |__ <week_num>-<topic_title>
     |__ <lesson_num>
+        |__<slide.pdf>
         |__ Activities
-            |__<slide.pdf>
             |__<activity_num>-<activity_type>_<activity_title>
                 |__ README.md
                 |__ solved/*
@@ -61,7 +61,7 @@ root
                 |__ unsolved/*
             |__ 04-Ins_ScatterPlot
                 |__ solved
-    ```
+```
 
 Each activity contains the following folders: 
 - `README.md`: contains instruction or 
