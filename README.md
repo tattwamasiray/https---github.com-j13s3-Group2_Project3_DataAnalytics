@@ -17,14 +17,15 @@ The contents of the repository is broken down as follows:
 
 ```
 root 
-|__ <week_num>-<topic_title>
-    |__ <lesson_num>
-        |__<slide.pdf>
-        |__ Activities
-            |__<activity_num>-<activity_type>_<activity_title>
-                |__ README.md
-                |__ solved/*
-                |__ unsolved/*
+|__ 01-Lesson
+    |__ <week_num>-<topic_title>
+        |__ <lesson_num>
+            |__<slide.pdf>
+            |__ Activities
+                |__<activity_num>-<activity_type>_<activity_title>
+                    |__ README.md
+                    |__ solved/*
+                    |__ unsolved/*
 ```
 
 - `week_num`: refers to the week number e.g. 01, 02, 03. 
@@ -38,24 +39,33 @@ root
 Example: 
 ```
 root 
-|__ 01-Excel
-    |__ 3
-        |__ aus_1.3 Excel Plotting.pdf
-        |__ Activities
-            |__ 02-Ins_BasicCharting
-                |__ README.md
-                |__ solved/*
-                |__ unsolved/*
-            |__ 03-Stu_LineAndBar
-                |__ README.md
-                |__ solved/*
-                |__ unsolved/*
-            |__ 04-Ins_ScatterPlot
-                |__ solved
+|__ 01-Lesson
+    |__ 01-Excel
+        |__ 3
+            |__ aus_1.3 Excel Plotting.pdf
+            |__ Activities
+                |__ 02-Ins_BasicCharting
+                    |__ README.md
+                    |__ solved/*
+                    |__ unsolved/*
+                |__ 03-Stu_LineAndBar
+                    |__ README.md
+                    |__ solved/*
+                    |__ unsolved/*
+                |__ 04-Ins_ScatterPlot
+                    |__ solved
+    |__ 02-VBA-Scripting
+        |__ 1
+            |__ aus_2.1 Fundamentals of Programming with VBA.pdf
+            |__ Images
+            |__ Activities
+                |__ 01-Ins_HelloWorld
+                    |__ README.md
+                    |__ unsolved/*
 ```
 
-Each activity contains the following folders: 
-- `README.md`: contains instruction or 
+**Each activity contains the following folders: **
+- `README.md`: contains instruction or denoting which actvitiy the instructor does demo.
 - `solved`: contains the solved solutions for the activity. [`stu`] solved solutions will be uploaded at the end of each class. 
 - `unsolved`: contains the unsolved starting code for the activity. This folder may be empty at times if the code is to be created from scratch. 
 
