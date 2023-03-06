@@ -27,4 +27,5 @@ print(myList)
 
 # Creates a tuple, a sequence of immutable Python objects that cannot be changed
 myTuple = ('Python', 100, 'VBA', False)
-print(myTuple)
+myList[0] = 'Java'
+print(myList)
