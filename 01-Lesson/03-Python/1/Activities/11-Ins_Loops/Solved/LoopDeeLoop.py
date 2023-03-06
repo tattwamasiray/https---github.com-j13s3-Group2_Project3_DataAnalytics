@@ -1,4 +1,5 @@
 # Loop through a range of numbers (0 through 4)
+
 for x in range(5):
     print(x)
 
@@ -19,8 +20,8 @@ print("----------------------------------------")
 
 # Iterate through a list
 zoo = ["cow", "dog", "bee", "zebra"]
-for animal in zoo:
-    print(animal)
+for i in zoo:
+    print(i)
 
 print("----------------------------------------")
 
