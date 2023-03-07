@@ -9,12 +9,13 @@ print_hello()
 
 
 # Functions that take in and use parameters can also be defined
+
 def print_name(name):
-    print("Hello " + name + "!")
+    print("Hello " + str(name) + "!")
 
 
 # When calling a function with a parameter, a parameter must be passed into the function
-print_name("Bob Smith")
+print_name(BobSmith)
 # -------------#
 
 # The prime use case for functions is in being able to run the same code for different values

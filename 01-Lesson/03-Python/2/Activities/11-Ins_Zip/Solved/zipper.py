@@ -3,15 +3,14 @@ import os
 
 # Three Lists
 indexes = [1, 2, 3, 4]
-employees = ["Michael", "Dwight", "Meredith", "Kelly"]
+employees = ["Michael", "Dwight", "Meredith"]
 department = ["Boss", "Sales", "Sales", "HR"]
 
 # Zip all three lists together into tuples
 roster = zip(indexes, employees, department)
 
 # Print the contents of each row
-for employee in roster:
-    print(employee)
+# for employee in roster:
 
 # save the output file path
 output_file = os.path.join("output.csv")
